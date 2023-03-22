@@ -1,0 +1,81 @@
+.login-container {
+    height: 100vh;
+    padding: 2.5rem 2.5rem;
+}
+
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+.login-wrapper h3>* {
+    font-size: 2.6rem;
+    font-weight: 500;
+    color: white;
+
+}
+
+.login-wrapper h3 span{
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
+.m {
+    margin-left: 1.5rem;
+}
+
+.login-img {
+    max-width: 130%;
+    position: relative;
+    z-index: 10;
+}
+
+.login-wrapper p {
+    color: rgba(255,255,255,.5)
+}
+
+.login-form-wrapper {
+    border-radius: 10px;
+    background-color: #fff;
+    height: 100%;
+    max-width: 450px;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.login-page-content {
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.login-form {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+}
+
+.email-field label,
+.password-field label {
+    font-weight: 500;
+}
+
+.login-option >*:last-child{
+    color: #7269ef;
+}
+
+.inp-email, .inp-password {
+    padding: 1.3rem 1.4rem;
+    border-radius: 8px;
+    border: 1px solid #EDE2FF;
+    outline: none;
+}
+
+.btn-login {
+    padding: 1.3rem 1.4rem;
+}
+
+.inp-email:focus, .inp-password:focus {
+   
+    border: 2px solid #00AB55;
+}

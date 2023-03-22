@@ -1,0 +1,158 @@
+/* .profile-wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.modal-profile-container {
+    width: 400px;
+    min-height: 300px;
+    height: 600px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header-profile {
+    height: 50px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.close-button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 25%;
+    
+    height: 30px;
+    width: 30px;
+    background-color: rgb(218, 221, 223);
+}
+
+
+.profile-detail-wrapper {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.profile-detail-header {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.profile-detail {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.profile-detail-element {
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.profile-detail-infor-element {
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.edit-profile {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+.edit-profile button {
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(206, 220, 220);
+    border-radius: 5px;
+}
+
+.fullname-information-hidden {
+    border: none;
+    margin-top: 3px;
+}
+
+.gender-option {
+    margin-right: 10px;
+}
+
+.values-fullname {
+    margin-top: 5px;
+}
+
+
+.avatar-profile {
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+.avatar-profile img {
+    height: 100%;
+    width: 100%;
+}
+
+.avatar-profile:hover .image {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.option-on-avatar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(130, 126, 126);
+    opacity: 0;
+}
+
+.avatar-profile:hover .option-on-avatar {
+    opacity: 1;
+}
+
+/* .change-avatar {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(101, 100, 100);
+
+} */
+
+.change-avatar input {
+    display: none;
+}
+
+/* .change-avatar input + label {
+    padding: 10px;
+} */
+
+.change-avatar label {
+    color: white;
+    /* padding-right: 20%;
+    padding-left: 25%; */
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
